@@ -42,6 +42,10 @@ $ npm run dev
 
 - Runs a development server using browser-sync with the file change watch enabled.
 
+### `npm run copy-deps`
+
+- Runs a script that copies NPM dependencies listed in package.json under `"dependencies": {...}` into `./src/@deps/DEP_NAME/`.
+
 ---
 
 ## LICENSE
