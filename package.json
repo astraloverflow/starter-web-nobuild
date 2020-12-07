@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "license": "",
+  "version": "2020.10.11",
+  "name": "@astraloverflow/starter-web-nobuild",
+  "description": "A starter template for web projects, free of any build step!",
+  "repository": "",
+  "scripts": {
+    "test": "stylelint \"src/**/*.css\" && eslint \"src/**/*.js\"",
+    "format": "prettier --write",
+    "dev": "browser-sync start --config bs-config.js",
+    "copy-deps": "node ./copy-deps.js"
+  },
+  "browserslist": [
+    "last 2 major versions and not dead and not ie > 1 and not op_mini all and cover 95%"
+  ],
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.5.7",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-compat": "^3.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-unicorn": "^23.0.0",
+    "prettier": "^2.2.1",
+    "shelljs": "^0.8.4",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-no-unsupported-browser-features": "^4.1.4",
+    "stylelint-order": "^4.1.0"
+  }
+}
