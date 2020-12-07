@@ -1,7 +1,7 @@
 {
   "private": true,
   "license": "",
-  "version": "2020.10.11",
+  "version": "2020.12.6",
   "name": "@astraloverflow/starter-web-nobuild",
   "description": "A starter template for web projects, free of any build step!",
   "repository": "",
